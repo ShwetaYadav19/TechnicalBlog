@@ -10,15 +10,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 @Controller
-public class HomeController {
+public class PostController {
 
     @Autowired
     private PostService postService;
 
-    @RequestMapping("/")
-    public String getAllPosts(Model model) {
-        List<Post> posts = postService.getAllPosts();
-        model.addAttribute( "posts", posts );
-        return "index";
+
+    @RequestMapping("posts")
+    public String getUserPosts(Model model){
+        List<Post> posts = postService.getOnePost();
+        model.addAttribute( "posts",posts );
+        return "posts";
     }
 }
