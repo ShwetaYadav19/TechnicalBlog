@@ -48,4 +48,8 @@ public class PostService {
         posts.add( post );
         return posts;
     }
+
+    public void createPost(Post newPost){
+
+    }
 }
