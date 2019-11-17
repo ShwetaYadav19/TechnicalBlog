@@ -1,6 +1,6 @@
-package main.com.upgrad.service;
+package technicalblog.service;
 
-import main.com.upgrad.model.User;
+import technicalblog.model.User;
 import org.springframework.stereotype.Service;
 
 @Service

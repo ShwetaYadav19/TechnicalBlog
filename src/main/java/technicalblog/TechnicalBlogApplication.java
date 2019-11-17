@@ -1,11 +1,13 @@
-package main.com.upgrad;
+package technicalblog;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan
+@ComponentScan(basePackages = "technicalblog")
+@EnableAutoConfiguration
 public class TechnicalBlogApplication {
 
 

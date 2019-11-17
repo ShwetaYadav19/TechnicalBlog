@@ -1,7 +1,7 @@
-package main.com.upgrad.controller;
+package technicalblog.controller;
 
-import main.com.upgrad.model.Post;
-import main.com.upgrad.service.PostService;
+import technicalblog.model.Post;
+import technicalblog.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

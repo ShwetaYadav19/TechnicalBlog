@@ -1,9 +1,10 @@
-package main.com.upgrad.controller;
+package technicalblog.controller;
 
-import main.com.upgrad.model.Post;
-import main.com.upgrad.model.User;
-import main.com.upgrad.service.PostService;
-import main.com.upgrad.service.UserService;
+
+import technicalblog.model.Post;
+import technicalblog.model.User;
+import technicalblog.service.PostService;
+import technicalblog.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

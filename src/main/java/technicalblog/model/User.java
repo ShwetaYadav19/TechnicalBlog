@@ -1,4 +1,4 @@
-package main.com.upgrad.model;
+package technicalblog.model;
 
 public class User {
 
